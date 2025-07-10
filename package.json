@@ -4,7 +4,7 @@
   "description": "**Ejercicio Guiado: Despliegue de una App Web con Infraestructura de Red Personalizada en AWS**\r En este ejercicio desplegaremos una API web con\r Node.js en una instancia EC2 dentro de una VPC\r personalizada. Simularemos un entorno de red con\r subredes públicas y privadas, configuraremos acceso\r controlado a través de grupos de seguridad y ACLs, y\r gestionaremos el tráfico a través de Route 53.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/EdoAbarca/app-vpc/issues"
   },
-  "homepage": "https://github.com/EdoAbarca/app-vpc#readme"
+  "homepage": "https://github.com/EdoAbarca/app-vpc#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
